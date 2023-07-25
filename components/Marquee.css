@@ -1,0 +1,42 @@
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top: -43%;
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: marquee-animation 30s linear infinite;
+  }
+  
+  .marquee-item {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-right: 30px;
+    text-decoration: none;
+  }
+  
+  .marquee-content:hover {
+    animation-play-state: paused; /* Add this line */
+  }
+  
+  .blue {
+    color: orange;
+  }
+  
+  .red {
+    color: yellowgreen;
+  }
+  
+  @keyframes marquee-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

@@ -1,0 +1,48 @@
+
+
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.item-image {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.item p {
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.left-arrow {
+  margin-right: 10px;
+}
+
+.right-arrow {
+  margin-left: 10px;
+}
